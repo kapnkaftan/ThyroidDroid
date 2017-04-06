@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "155781070332",
+    "firebase_url": "https://thyroid-pathology.firebaseio.com",
+    "project_id": "thyroid-pathology",
+    "storage_bucket": "thyroid-pathology.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155781070332:android:304ec6b0c880cd3b",
+        "android_client_info": {
+          "package_name": "com.unmcelearning.android.thyroidpathology"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155781070332-a6dck7b6l64en06e0c6504dn4s1r97cn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unmcelearning.android.thyroidpathology",
+            "certificate_hash": "a254a3cac1b42ff659625a3b26b046801d064ec1"
+          }
+        },
+        {
+          "client_id": "155781070332-51quoj3g9oi8tq31lfmirol3n82oiv3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyrXhWumJidfajt5HT1wGmXoTYSbOqSrA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155781070332-51quoj3g9oi8tq31lfmirol3n82oiv3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

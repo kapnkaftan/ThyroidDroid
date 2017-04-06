@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/home_layout"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/thyroidhome"
+            android:scaleType="fitCenter"
+            android:id="@+id/logo_image_view"
+            android:adjustViewBounds="true"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/top_scores_title"
+            android:text="@string/top_score"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:id="@+id/first_place"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:id="@+id/second_place"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:id="@+id/third_place"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:id="@+id/fourth_place"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:id="@+id/fifth_place"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:textSize="20sp"
+            android:id="@+id/total_score_home"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Thyroid Droid</string>
+    <string name="top_score">Top Scores</string>
+    <string name="references">Funding provided by an award from the Office of the Vice Chancellor for Academic Affairs at the University of Nebraska Medical Center 2017.\n\nThe content of this app was based on a presentation created by Dr. John Baker.\n\nText was organized and edited by Adam Kaftan, Mitch Nohner, and Jacob Franklin.\n\nPeer review of this content was conducted by Dr. Maheswari (Manju) Mukherjee, Dr. John Baker, and Dr. Amber Donnelly.\n\nImages were obtained from the libraries of Dr. Maheswari (Manju) Mukherjee, Dr. John Baker, and from the generous users of Wikimedia Commons who provide freely-licensed educational media content to the public domain.\n\nSpecial thanks to E-learning Program Director Peggy Moore, faculty advisor Dr. Maheswari (Manju) Mukherjee, and the rest of the E-learning Department faculty for their expertise, guidance, and encouragement in the creation of this application.</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topic_text_view"
+        android:paddingTop="10dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_one"
+            android:gravity="center_horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_text_view_corner_subjects_menu"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_two"
+            android:gravity="center_horizontal"
+            android:background="@drawable/rounded_text_view_corner_subjects_menu"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_three"
+            android:gravity="center_horizontal"
+            android:background="@drawable/rounded_text_view_corner_subjects_menu"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_four"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/rounded_text_view_corner_subjects_menu"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:layout_margin="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_five"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/rounded_text_view_corner_subjects_menu"
+            android:padding="6dp"
+            android:layout_margin="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level_six"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:background="@drawable/rounded_text_view_corner_subjects_menu"
+            android:padding="6dp"
+            android:layout_margin="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
